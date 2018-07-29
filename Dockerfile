@@ -1,7 +1,7 @@
 FROM nouchka/phantomjs:latest
+ARG FUNC_NAME=phantomjs-speed
 
 USER root
-ARG FUNC_NAME=phantomjs-speed
 ADD https://github.com/openfaas/faas/releases/download/0.8.0/fwatchdog /usr/bin
 RUN chmod +x /usr/bin/fwatchdog
 
