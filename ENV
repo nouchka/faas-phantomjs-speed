@@ -1,0 +1,2 @@
+DOCKER_IMAGE=phantomjs-speed
+TEST_FUNC=https://www.democracy-cc.org/
